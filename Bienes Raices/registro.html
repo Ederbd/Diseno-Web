@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="bienes raices">
+                </a>
+
+                <nav class="navegacion">
+                    <a href="registro.html">Registro</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="fw300 centrar-texto">Registrate para recibir mas notificaciones </h1>
+    <img src="img/destacada3.jpg" alt="Imagen principal">
+
+    <main class="contenedor seccion contenido-centrado">
+
+        <h2 class="fw300 centrar-texto">Registro de Usuarios</h2>
+
+        <form action="registro1.php" method="POST">
+            <Fieldset>
+                <tr>
+                    <td><label>Nombres</label></td>
+                    <td><input type="text" name="nombreuser" placeholder="Nombres" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Apellidos</label></td>
+                    <td><input type="text" name="apellidosuser" placeholder="Apellidos" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Correo electronico</label></td>
+                    <td><input type="text" name="emailuser" placeholder="example@mail.com" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Contrase&ntilde;a</label></td>
+                    <td><input type="password" name="pass" placeholder="**********************" required/></td>
+                </tr>
+                <tr>
+                    <td><label>Repetir Contrase&ntilde;a</label></td>
+                    <td><input type="password" name="rpass" placeholder="**********************" required/></td>
+                </tr>
+            </Fieldset>
+
+            <input type="submit" value="Registrarme" class="boton boton-verde">
+            <input type="reset" value="Reestablecer" class="boton boton-verde">
+
+
+        </form>
+        
+    </main>
+
+
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="registro.html">Registro</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyrigth">Todos los derechos reservados &copy</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
